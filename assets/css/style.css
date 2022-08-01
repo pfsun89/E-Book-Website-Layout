@@ -7,12 +7,14 @@ html {
     box-sizing: inherit;
 }
 
+/* Style the body. */
 body {
     margin: 0;
     font-family: 'EB Garamond', serif;
     background-color: #e6ca29;
 }
 
+/* Style the header */
 header {
     font-size: 3em;
     background-color: #6f2ab1;
@@ -21,6 +23,7 @@ header {
     padding-top: 1em;
 }
 
+/* Style the first heading */
 h1 {
     font-family: 'Lobster', cursive;
     font-size: 8vw;
@@ -29,11 +32,13 @@ h1 {
     -webkit-text-stroke: 1px #333;
 }
 
+/* Style the navigation bar */
 nav {
     margin: 0;
     background-color: #1b879d;
 }
 
+/* Style the unordered list and removed bullet points. */
 ul {
     list-style-type: none;
     margin: 0;
@@ -41,6 +46,7 @@ ul {
     width: 100%;
 }
 
+/* Made list items display side by side. */
 li {
     padding: 20px;
     display: inline-block;
@@ -48,6 +54,7 @@ li {
     font-size: 2vw;
 }
 
+/* Removed underline in links. */
 a {
     text-decoration: none;
     color: #eee;
@@ -55,6 +62,7 @@ a {
     -webkit-text-stroke: 1px #333;
 }
 
+/* Style the container of the content. */
 section {
     margin: auto;
     width: 60%;
@@ -62,18 +70,21 @@ section {
     padding: 40px;
 }
 
+/* Style the second heading. */
 h2 {
     font-family: 'Mouse Memoirs', sans-serif;
     text-align: center;
     font-size: 3vw;
 }
 
+/* Style the grid container to have two columns. */
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
 }
 
+/* Style the image */
 img {
     width: 30%;
     min-width: 200px;
@@ -81,15 +92,18 @@ img {
     margin: 0 20px 0 0;
 }
 
+/* Style the paragraph text. */
 p {
     font-size: 20px;
     padding: 0 20px;
 }
 
+/* Adjust text in poems. */
 .poem {
     text-align: center;
 }
 
+/* Style the footer. */
 footer {
     text-align: center;
     background-color: #6f2ab1;
