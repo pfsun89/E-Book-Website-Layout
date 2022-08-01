@@ -83,7 +83,11 @@ img {
 
 p {
     font-size: 20px;
-    padding: 20px;
+    padding: 0 20px;
+}
+
+.poem {
+    text-align: center;
 }
 
 footer {
