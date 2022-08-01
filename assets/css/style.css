@@ -18,7 +18,7 @@ header {
     background-color: #6f2ab1;
     text-align: center;
     margin: 0;
-    padding: 1em;
+    padding-top: 1em;
 }
 
 h1 {
@@ -38,6 +38,7 @@ ul {
     list-style-type: none;
     margin: 0;
     text-align: center;
+    width: 100%;
 }
 
 li {
@@ -82,4 +83,13 @@ img {
 
 p {
     font-size: 20px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #6f2ab1;
+    color: #eee;
+    margin-bottom: -20px;
+    padding-bottom: 10px;
 }
