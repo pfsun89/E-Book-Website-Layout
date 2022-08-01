@@ -10,6 +10,7 @@ html {
 body {
     margin: 0;
     font-family: 'EB Garamond', serif;
+    background-color: #e6ca29;
 }
 
 header {
@@ -44,4 +45,37 @@ li {
     display: inline-block;
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 2vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin: auto;
+    width: 60%;
+    background-color: #fff;
+    padding: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+img {
+    width: 30%;
+    min-width: 200px;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+p {
+    font-size: 20px;
 }
