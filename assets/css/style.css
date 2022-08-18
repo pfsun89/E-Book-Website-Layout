@@ -66,7 +66,7 @@ a {
 section {
     margin: auto;
     width: 60%;
-    background-color: #fff;
+    background-color: #333;
     padding: 40px;
 }
 
@@ -75,6 +75,7 @@ h2 {
     font-family: 'Mouse Memoirs', sans-serif;
     text-align: center;
     font-size: 3vw;
+    color: #eee;
 }
 
 /* Style the grid container to have two columns. */
@@ -96,6 +97,7 @@ img {
 p {
     font-size: 20px;
     padding: 0 20px;
+    color: #eee;
 }
 
 /* Adjust text in poems. */
